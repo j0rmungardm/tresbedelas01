@@ -1,0 +1,493 @@
+@media (max-width: 1024px) {
+
+    .intro {
+        align-items: center;
+    }
+
+    .intro {
+        background: url(../imagens/Capa\ Site.png) no-repeat center;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .intro .intro-text {
+        margin-left: 0;
+        width: 650px;
+        padding: 30px 10px;
+    }
+
+    .intro .intro-text .qs-title-2 {
+        margin-bottom: 20px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods {
+        width: 200px;
+        height: 200px;
+        padding: 20px 10px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods .ods-title {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods .ods-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .impacto-social .indicadores .indicadores-title {
+        margin-bottom: 20px;
+    }
+    
+    .impacto-social .indicadores .indicadores-numeros {
+        gap: 80px;
+    }
+    
+    .impacto-social .indicadores .numeros {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .impacto-social .indicadores h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        padding: 20px;
+    }
+    
+    .links .links-title {
+        margin-bottom: 10px;
+    }
+
+    .links a {
+        width: 350px;
+        height: 200px;
+        padding: 10px 20px;
+    }
+
+    .links a h3 {
+        margin-bottom: 5px;
+    }
+    
+    .links a h2 {
+        margin-bottom: 10px;
+    }
+
+    .links p{
+        font-size: 14px;
+    }
+
+    .programas {
+        gap: 10px;
+    }
+    
+    .programas .programas-title {
+        margin-bottom: 0;
+    }
+    
+    .programas .programas-links {
+        gap: 20px;
+    }
+    
+    .programas .programas-links .acelera {
+        width: 350px;
+        height: 250px;
+        padding: 20px;
+    }
+    
+    .programas .programas-links .acelera h2 {
+        margin-bottom: 10px;
+    }
+    
+    .programas .link-agenda {
+        margin-top: 20px;
+    }
+
+    .founders {
+        display: flex;
+        align-items: center;
+        background: url(../imagens/DSC_0413.JPG) no-repeat center;
+        background-size: cover;
+        height: 500px;
+        padding: 40px 20px;
+    }
+
+    .founders .founders-text {
+        width: 350px;
+        font-size: 14px;
+    }
+    
+    .founders .founders-text .time {
+        margin-bottom: 10px;
+    }
+    
+    .founders .founders-text .time-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .founders .founders-text .time-text {
+        line-height: 25px;
+    }
+
+    .borboletario .ecossistema .ecossistema-grupos {
+        gap: 15px;
+    }
+
+    .borboletario .ecossistema .borboletario-list {
+        padding: 10px
+    }
+
+    .borboletario .ecossistema .borboletario-list ul {
+        padding: 20px;
+        border-radius: 15px;
+        gap: 20px;
+    }
+    
+    .borboletario .ecossistema .ecossistema-grupos .borboleta{
+        width: 200px;
+        height: 180px;
+        padding: 10px;
+    }
+    
+    .ecossistema .ecossistema-grupos .borboleta .borboleta-text {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .nossa-trajetoria{
+        padding: 20px 0;
+    }
+    
+    .nossa-trajetoria .trajetoria .logos .logo{
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    header {
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+    }
+    
+    header img {
+        background-color: var(--primary-red);
+        height: 60px;
+        width: 60px;
+        border-radius: 0 0 40px 0;
+    }
+    
+    .intro{
+        background: none;
+    }
+
+    .intro .img-responsive{
+        background: url(../imagens/Capa\ Site.png) no-repeat center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .intro .intro-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary-orange);
+        border-radius: 0;
+        padding: 20px;
+    }
+    
+    .intro .intro-text .qs-title-1 {
+        color: var(--primary-soft);
+        margin-bottom: 12px;
+    }
+    
+    .intro .intro-text .qs-title-2 {
+        color: var(--primary-soft);
+        margin-bottom: 20px;
+    }
+    
+    .intro .intro-text .qs-saiba-mais {
+        background-color: var(--primary-purple);
+        padding: 5px 20px;
+    }
+
+    .intro .intro-text .qs-saiba-mais:hover {
+        background-color: var(--primary-soft);
+    }
+
+    .quem-somos-sec {
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .quem-somos-sec .quem-somos {
+        text-align: start;
+        line-height: 20px;
+    }
+
+    .quem-somos-sec .nossos-valores {
+        line-height: 20px;
+        gap: 10px;
+    }
+
+    .intro .intro-text .qs-title-2 {
+        margin-bottom: 20px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods {
+        width: 160px;
+        height: 160px;
+        padding: 10px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods .ods-title {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+
+    .quem-somos-sec .compromissos-onu .ods .ods-text{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .impacto-social .indicadores .indicadores-numeros {
+        gap: 10px;
+    }
+    
+    .impacto-social .indicadores .numeros {
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        height: 120px;
+        padding: 10px;
+    }
+
+    .links{
+        padding: 20px 0;
+    }
+
+    .links .links-produtos {
+        gap: 10px;
+    }
+
+    .links a {
+        width: 100%;
+        height: 100%;
+        padding: 10px 20px;
+        border-radius: 0;
+    }
+
+    .programas{
+        padding: 10px 0;
+    }
+    
+    .programas .programas-title {
+        margin-bottom: 0;
+    }
+    
+    .programas .programas-links .acelera {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .programas .programas-links .acelera h3 {
+        margin-bottom: 5px;
+    }
+    
+    .programas .programas-links .acelera h2 {
+        margin-bottom: 5px;
+    }
+    
+    .programas .link-agenda {
+        margin-top: 20px;
+    }
+
+    .founders{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        padding:0 0 10px 0;
+        gap: 20px;
+    }
+
+    .founders .img-founders-responsive{
+        background: url(../imagens/DSC_0413.JPG) no-repeat center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .founders .founders-text {
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 350px;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    .founders .founders-text .time {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .founders .founders-text .time-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .founders .founders-text .time-text {
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .founders .founders-text .faca-parte {
+        width: 250px;
+        padding: 8px 10px;
+        border-radius: 15px;
+    }
+
+    .borboletario {
+        height: 100%;
+        padding: 20px;
+    }
+
+    .borboletario .borboletario-description .borboletario-title {
+        margin-bottom: 20px;
+    }
+
+    .borboletario .ecossistema .grupos-title{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .borboletario .ecossistema .ecossistema-grupos {
+        gap: 10px;
+    }
+
+    .borboletario .ecossistema .borboletario-list {
+        padding: 10px
+    }
+
+    .borboletario .ecossistema .borboletario-list ul {
+        padding: 20px;
+        border-radius: 15px;
+        gap: 20px;
+    }
+    
+    .borboletario .ecossistema .ecossistema-grupos .borboleta{
+        width: 160px;
+        height: 140px;
+        padding: 10px;
+    }
+
+    .ecossistema .ecossistema-title {
+        font-size: 22px;
+    }
+
+
+
+    .borboletario .ecossistema .borboletario-list {
+        padding: 10px
+    }
+    
+    .ecossistema .ecossistema-grupos .borboleta .borboleta-text {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .avaliacao .comment {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .avaliacao{
+        gap: 5px;
+        padding: 10px 0;
+    }
+    
+    .avaliacao .comment .img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    
+    .avaliacao .comment .comment-text {
+        padding: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .avaliacao .comment .comment-text h3 {
+        margin-top: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+    
+    .social .social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 7px;
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+
+    .social .parceria{
+        display: flex;
+        align-items: center;
+    }
+    
+    .social .parceria-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .parceria .parceria-link{
+        margin-top: 0px;
+    }
+    
+    .social .parceria .parceria-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    
+    .credits {
+        font-size: 14px;
+    }
+}

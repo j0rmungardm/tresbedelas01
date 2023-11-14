@@ -1,0 +1,12 @@
+:root{
+    /*colors*/
+    --primary-orange: #C85103;
+    --primary-red: #62121F;
+    --primary-blue:#0C2340;
+    --primary-purple:#493979;
+    --primary-soft: #ede5da;
+    --background-soft: rgba(255, 255, 255, 0.5);
+
+    /*headings and texts*/
+    --ff-texts: 'Montserrat', sans-serif;
+}
